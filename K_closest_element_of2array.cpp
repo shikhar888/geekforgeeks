@@ -15,7 +15,7 @@ int main()
     }
     int l=0,r=n-1,l1,r1;
     int diff = INT_MAX;
-    while(l<m && r>=0)
+    while(l!=r)
     {
         if(abs(a1[l] + a2[r] -x) < diff)
         {
